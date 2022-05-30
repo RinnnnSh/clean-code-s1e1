@@ -10,11 +10,13 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
 
-input,button{
+input,
+button {
   outline: none;
 }
 
@@ -140,18 +142,18 @@ li > input[type="text"] {
   width: 226px;
 }
 
-button.delete img {
+.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.delete img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks .compl-tasks__item-title {
   text-decoration: line-through;
   color: #888;
 }
