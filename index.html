@@ -20,30 +20,30 @@
       </div>
     </section>
     <section class="todo">
-      <h3>Todo</h3>
-      <ul id="incompleteTasks">
-        <li>
+      <h3 class="todo__title">Todo</h3>
+      <ul class="todo__list" id="incompleteTasks">
+        <li class="todo__item">
           <input type="checkbox">
           <label class="task">Pay Bills</label>
           <input type="text" class="task">
           <button class="edit">Edit</button>
           <button class="delete"><img src="./remove.svg" alt=""></button>
         </li>
-        <li class="editMode">
-          <input type="checkbox">
-          <label class="task">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task">
-          <button class="edit">Save</button>
-          <button class="delete"><img src="./remove.svg" alt=""></button>
+        <li class="todo__item editMode">
+          <input class="todo__item-checkbox" type="checkbox">
+          <label class="todo__item-title task">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="todo__item-description task">
+          <button class="edit-btn edit">Save</button>
+          <button class="delete-btn delete"><img src="./remove.svg" alt=""></button>
         </li>
       </ul>
     </section>
-    <section>
-      <h3>Completed</h3>
-      <ul id="completed-tasks">
-        <li>
-          <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
+    <section class="compl-tasks">
+      <h3 class="compl-tasks__title">Completed</h3>
+      <ul class="compl-tasks__list" id="completed-tasks">
+        <li class="compl-tasks__item">
+          <input class="compl-tasks__item-checkbox" type="checkbox" checked>
+          <label class="compl-tasks__item-title task">See the Doctor</label>
           <input type="text" class="task">
           <button class="edit">Edit</button>
           <button class="delete"><img src="./remove.svg" alt=""></button>
