@@ -136,8 +136,7 @@ li > * {
 }
 
 .todo__item-checkbox,
-.compl-tasks__item-checkbox,
- {
+.compl-tasks__item-checkbox {
   margin: 0 10px;
 }
 
@@ -163,7 +162,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#completed-tasks .compl-tasks__item-title {
+#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
